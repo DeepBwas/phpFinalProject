@@ -1,0 +1,7 @@
+CREATE TABLE gsimages (
+  id INT NOT NULL AUTO_INCREMENT,
+  file_name VARCHAR(255) NOT NULL,
+  uploaded_on DATETIME NOT NULL,
+  status TINYINT(1) NOT NULL DEFAULT 1,
+  PRIMARY KEY (id) 
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
